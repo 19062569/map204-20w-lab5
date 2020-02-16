@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/photo_uuid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/photo_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/photo_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/photoViewerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Viewer" />
+    <Button
+        android:id="@+id/save_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Photo"/>
+    <Button
+        android:id="@+id/choose_person_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Person"/>
+</LinearLayout>
